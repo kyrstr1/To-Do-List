@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(1, 91, 92);
+  background: linear-gradient(90deg,rgba(1, 91, 92, 1) 0%,rgba(254, 209, 111, 1) 100%);
+  font-family: "Nunito", sans-serif;
+}
+
+#todo-list {
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+input{
+    border-radius: 15px;
+    padding: 5px 10px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    li {
+      margin-bottom: 15px;
+    }
+    button,
+    input {
+      padding: 8px;
+      font-size: 11.5px; 
+    }
+  }
