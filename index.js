@@ -15,6 +15,7 @@ function addTask() {
     
 }
 
+
 function removeTask(button) {
     var taskItem = button.parentNode;
     taskItem.parentNode.removeChild(taskItem);
