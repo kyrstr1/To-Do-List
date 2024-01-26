@@ -12,6 +12,7 @@ function addTask() {
         tasksContainer.appendChild(newTaskItem);
         taskInput.value = "";
     }
+    
 }
 
 function removeTask(button) {
