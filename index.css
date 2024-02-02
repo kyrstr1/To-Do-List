@@ -42,6 +42,7 @@ input{
     
 }
 
+
 @media screen and (max-width: 600px) {
     li {
       margin-bottom: 15px;
